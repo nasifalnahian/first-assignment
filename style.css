@@ -80,6 +80,7 @@ margin-top:80px;
     padding:2% 5%;
     margin-top: 4%;
     background-image: linear-gradient(white, grey);
+    margin-bottom: 25px;
     
     
     
@@ -127,22 +128,53 @@ border-radius: 60px;
 }
 .four-s{
     display: flex;
-    
-
+  
+}
+.four-s-d{
+    box-shadow: 10px 4px 4px gray;
+    background-color: rgba(177, 184, 185, 0.623);
+    border-radius:30px ;
+    margin: 50px 0px;
+    margin-left: 130px;
+   
 }
 .four-s-d ul{
+   
+    
+    padding:0px 200px;
     display: inline-flex;
-    box-shadow: 10px 4px 4px gray;
+ border-radius: 30px;
    
 }
 .four-s-d li{
     list-style: none;
-    margin: 0% 2%;
+   
+
     
 }
 .four-s-d h2{
     color: rgba(236, 126, 22, 0.966);
+    font-size: 35px;
+    padding: 0px 150px;
+    
 }
 .four-s-d p{
-    color: rgba(78, 57, 57, 0.829);
+    color: rgba(12, 8, 8, 0.925);
+    font-size: 14px;
+    padding: 0px 150px;
+   
+}
+.last{
+    text-align: center;
+    padding: 2% 40%;
+    background-color: rgb(0, 0, 0);
+}
+#last{
+    color: rgba(248, 162, 63, 0.788);
+}
+.last h1{
+    color: rgb(233, 224, 143);
+}
+.last p{
+    color: rgb(127, 134, 109);
 }
