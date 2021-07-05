@@ -2,20 +2,21 @@
     display: flex;
     background-image: url(picture/zz.jpg);
     background-size: cover;
-   background-origin: content-box;
-    background-repeat: no-repeat, repeat;
+   
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0,0;    ;
+    border-radius: 20px;
     
 }
 .ss{
     background-image: url(picture/sf.jpg);
-    background-origin: content-box;
-    background-size:100%;
+    background-size:cover;
     display: flex;
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     margin: 10px 0px;
     
+    border-radius: 20px;
     
     
 }
@@ -23,7 +24,7 @@ strong{
     font-family: 'Montserrat', sans-serif;
   
    font-style:initial;
-   
+   line-height:32px;
    font-size: 25px;
 }
 .fs-fd{
@@ -59,14 +60,55 @@ margin-top:80px;
     width: 100%;
 }
 .fs-fd img{
-    width: 40%;
+    width: 80%;
+    height: auto;
+    
 }
 #ss-p{
 
     text-align: center;
     color: rgba(75, 73, 73, 0.603);
+    padding: 0% 30%;
 
 }
 #h{
     color: rgba(75, 73, 73, 0.842);
+}
+.ts{
+    display: flex;
+    padding: 5%;
+    width:500px ;
+    
+    
+}
+.ts-d{
+    box-shadow: 10px 4px 4px gray;
+    padding: 0% 15%;
+    margin:0% 10% ;
+}
+.ts #a{
+width: 300px;
+padding: 2%;
+border-radius: 80px;
+
+}
+.ts #b{
+width: 300px;
+padding: 2%;
+border-radius: 80px;
+
+}
+.ts #c{
+    width :300px;
+    padding: 2%;
+    border-radius: 80px;
+
+
+}
+.ts-head{
+    color: rgba(44, 44, 44, 0.973);
+
+}
+.ts-p{
+    color: rgba(15, 8, 1, 0.603);
 }
